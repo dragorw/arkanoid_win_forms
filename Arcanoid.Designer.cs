@@ -1,6 +1,6 @@
 ﻿namespace Pong
 {
-    partial class Pong
+    partial class Arcanoid
     {
         /// <summary>
         /// Required designer variable.

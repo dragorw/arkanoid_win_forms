@@ -26,11 +26,11 @@ namespace Pong
         BALL,
     }
 
-    public partial class Pong : Form
+    public partial class Arcanoid : Form
     {
         // mapa a jeji velikost
-        const int mapWidth = 50;
-        const int mapHeight = 50;
+        const int mapWidth = 20;
+        const int mapHeight = 30;
         public State[,] map = new State[mapHeight, mapWidth];
 
         // parametry pozice kulicky a platformy
@@ -48,7 +48,7 @@ namespace Pong
         public State[] blocks = { State.BLOCK_1, State.BLOCK_2,
                    State.BLOCK_3, State.BLOCK_4, State.BLOCK_5 };
 
-        public Pong()
+        public Arcanoid()
         {
             // umisteni prvku uzivatelskeho rozhrani a ovladacich prvku
             InitializeComponent();                      

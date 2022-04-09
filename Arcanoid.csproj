@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pong.cs">
+    <Compile Include="Arcanoid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pong.Designer.cs">
-      <DependentUpon>Pong.cs</DependentUpon>
+    <Compile Include="Arcanoid.Designer.cs">
+      <DependentUpon>Arcanoid.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Pong.resx">
-      <DependentUpon>Pong.cs</DependentUpon>
+    <EmbeddedResource Include="Arcanoid.resx">
+      <DependentUpon>Arcanoid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

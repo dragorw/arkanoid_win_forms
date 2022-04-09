@@ -16,7 +16,7 @@ namespace Pong
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pong());
+            Application.Run(new Arcanoid());
         }
     }
 }
